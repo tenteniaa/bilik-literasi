@@ -27,14 +27,8 @@
 
   <!-- Template Main CSS File -->
   <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+  <style>img[alt*="www.000webhost.com"]{display:none}</style>
 
-  <!-- =======================================================
-  * Template Name: Vesperr
-  * Updated: Mar 10 2023 with Bootstrap v5.2.3
-  * Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -79,7 +73,7 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
-          <li><a class="getstarted scrollto" href="#login">Login</a></li>
+          <li><a class="getstarted scrollto" href="/dashboard">Login</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -345,10 +339,10 @@
               <div class="social-links">
                 {{-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> --}}
-                <a href="mailto:atinauww@gmail.com" class="envelope"><i class="bi bi-envelope"></i></a>
-                <a href="https://www.linkedin.com/in/atinauswati/" class="linkedin"><i class="bi bi-linkedin"></i></a>
-                <a href="https://www.instagram.com/atiiinaaaa/" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="https://wa.me/083838891947" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+                <a target="_blank" href="mailto:atinauww@gmail.com" class="envelope"><i class="bi bi-envelope"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/atinauswati/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a target="_blank" href="https://www.instagram.com/atiiinaaaa/" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=6283870599531" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
               </div>
             </div>
           </div>
@@ -412,11 +406,7 @@
             &copy; Copyright <strong>2023</strong>. All Rights Reserved
           </div>
           <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/vesperr-free-bootstrap-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Designed by <a target="_blank" href="https://bootstrapmade.com/">BootstrapMade</a>
           </div>
         </div>
         <div class="col-lg-6">
